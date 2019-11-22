@@ -17,7 +17,7 @@
     "email": "w@zce.me",
     "url": "https://zce.me"
   },
-  "main": "lib/index.js",
+  "main": "gatsby-node.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zce/gatsby-plugin-minify.git"
