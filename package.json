@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-plugin-minify",
+  "version": "0.1.0",
+  "description": "A Gatsby plugin to easily minify all result.",
+  "keywords": [
+    "gatsby-plugin-minify",
+    "gatsby-plugin",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/gatsby-plugin-minify#readme",
+  "bugs": {
+    "url": "https://github.com/zce/gatsby-plugin-minify/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/gatsby-plugin-minify.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
