@@ -1,8 +1,9 @@
 # gatsby-plugin-minify
 
+[![Build Status][travis-img]][travis-url]
+[![License][license-img]][license-url]
 [![NPM Downloads][downloads-img]][downloads-url]
 [![NPM Version][version-img]][version-url]
-[![License][license-img]][license-url]
 [![Dependency Status][dependency-img]][dependency-url]
 [![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
@@ -79,15 +80,19 @@ const defaultOptions = {
 
 
 
-[downloads-img]: https://img.shields.io/npm/dm/gatsby-plugin-minify.svg
-[downloads-url]: https://npmjs.org/package/gatsby-plugin-minify
-[version-img]: https://img.shields.io/npm/v/gatsby-plugin-minify.svg
-[version-url]: https://npmjs.org/package/gatsby-plugin-minify
-[license-img]: https://img.shields.io/github/license/zce/gatsby-plugin-minify.svg
+[travis-img]: https://img.shields.io/travis/com/zce/gatsby-plugin-minify
+[travis-url]: https://travis-ci.com/zce/gatsby-plugin-minify
+[codecov-img]: https://img.shields.io/codecov/c/github/zce/gatsby-plugin-minify
+[codecov-url]: https://codecov.io/gh/zce/gatsby-plugin-minify
+[license-img]: https://img.shields.io/github/license/zce/gatsby-plugin-minify
 [license-url]: https://github.com/zce/gatsby-plugin-minify/blob/master/LICENSE
-[dependency-img]: https://img.shields.io/david/zce/gatsby-plugin-minify.svg
+[downloads-img]: https://img.shields.io/npm/dm/zce/gatsby-plugin-minify
+[downloads-url]: https://npmjs.org/package/zce/gatsby-plugin-minify
+[version-img]: https://img.shields.io/npm/v/zce/gatsby-plugin-minify
+[version-url]: https://npmjs.org/package/zce/gatsby-plugin-minify
+[dependency-img]: https://img.shields.io/david/zce/gatsby-plugin-minify
 [dependency-url]: https://david-dm.org/zce/gatsby-plugin-minify
-[devdependency-img]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify.svg
+[devdependency-img]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify
 [devdependency-url]: https://david-dm.org/zce/gatsby-plugin-minify?type=dev
-[style-img]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
 [style-url]: https://standardjs.com
