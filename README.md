@@ -1,46 +1,65 @@
 # gatsby-plugin-minify
 
-[![NPM Downloads][downloads-image]][downloads-url]
-[![NPM Version][version-image]][version-url]
-[![License][license-image]][license-url]
-[![Dependency Status][dependency-image]][dependency-url]
-[![devDependency Status][devdependency-image]][devdependency-url]
-[![Code Style][style-image]][style-url]
+[![NPM Downloads][downloads-img]][downloads-url]
+[![NPM Version][version-img]][version-url]
+[![License][license-img]][license-url]
+[![Dependency Status][dependency-img]][dependency-url]
+[![devDependency Status][devdependency-img]][devdependency-url]
+[![Code Style][style-img]][style-url]
 
-> A Gatsby plugin to easily minify all result.
+> A Gatsby plugin to easily minify all output HTML files.
 
 ## Installation
 
 ```shell
-$ yarn add gatsby-plugin-minify
-
-# or npm
 $ npm install gatsby-plugin-minify
+
+# or yarn
+$ yarn add gatsby-plugin-minify
 ```
 
 ## Usage
 
 Include the plugin in your `gatsby-config.js` file.
 
-```js
-plugins: [`gatsby-plugin-minify`]
+```javascript
+module.exports = {
+  plugins: [`gatsby-plugin-minify`]
+}
 ```
 
 ### options
 
 If you need to pass options to html-minifier use the plugins options, see [html-minifier](https://github.com/kangax/html-minifier#options-quick-reference) docs for all available options.
 
-```js
+```javascript
 // in gatsby-config.js
-plugins: [
-  {
-    resolve: `gatsby-plugin-minify`,
-    options: {
-      removeAttributeQuotes: true
-      // ...
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-minify`,
+      options: {
+        removeAttributeQuotes: true
+        // ...
+      }
     }
-  }
-]
+  ]
+}
+```
+
+default options:
+
+```javascript
+const defaultOptions = {
+  collapseWhitespace: true,
+  minifyCSS: true,
+  minifyJS: true,
+  removeComments: true,
+  removeEmptyAttributes: true,
+  removeScriptTypeAttributes: true,
+  removeStyleLinkTypeAttributes: true,
+  processConditionalComments: true
+}
 ```
 
 ## Contributing
@@ -60,15 +79,15 @@ plugins: [
 
 
 
-[downloads-image]: https://img.shields.io/npm/dm/gatsby-plugin-minify.svg
+[downloads-img]: https://img.shields.io/npm/dm/gatsby-plugin-minify.svg
 [downloads-url]: https://npmjs.org/package/gatsby-plugin-minify
-[version-image]: https://img.shields.io/npm/v/gatsby-plugin-minify.svg
+[version-img]: https://img.shields.io/npm/v/gatsby-plugin-minify.svg
 [version-url]: https://npmjs.org/package/gatsby-plugin-minify
-[license-image]: https://img.shields.io/github/license/zce/gatsby-plugin-minify.svg
+[license-img]: https://img.shields.io/github/license/zce/gatsby-plugin-minify.svg
 [license-url]: https://github.com/zce/gatsby-plugin-minify/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/gatsby-plugin-minify.svg
+[dependency-img]: https://img.shields.io/david/zce/gatsby-plugin-minify.svg
 [dependency-url]: https://david-dm.org/zce/gatsby-plugin-minify
-[devdependency-image]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify.svg
+[devdependency-img]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify.svg
 [devdependency-url]: https://david-dm.org/zce/gatsby-plugin-minify?type=dev
-[style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[style-img]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com
