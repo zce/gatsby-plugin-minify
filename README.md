@@ -86,10 +86,10 @@ const defaultOptions = {
 [codecov-url]: https://codecov.io/gh/zce/gatsby-plugin-minify
 [license-img]: https://img.shields.io/github/license/zce/gatsby-plugin-minify
 [license-url]: https://github.com/zce/gatsby-plugin-minify/blob/master/LICENSE
-[downloads-img]: https://img.shields.io/npm/dm/zce/gatsby-plugin-minify
-[downloads-url]: https://npmjs.org/package/zce/gatsby-plugin-minify
-[version-img]: https://img.shields.io/npm/v/zce/gatsby-plugin-minify
-[version-url]: https://npmjs.org/package/zce/gatsby-plugin-minify
+[downloads-img]: https://img.shields.io/npm/dm/gatsby-plugin-minify
+[downloads-url]: https://npmjs.org/package/gatsby-plugin-minify
+[version-img]: https://img.shields.io/npm/v/gatsby-plugin-minify
+[version-url]: https://npmjs.org/package/gatsby-plugin-minify
 [dependency-img]: https://img.shields.io/david/zce/gatsby-plugin-minify
 [dependency-url]: https://david-dm.org/zce/gatsby-plugin-minify
 [devdependency-img]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify
