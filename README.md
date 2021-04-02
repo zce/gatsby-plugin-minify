@@ -31,7 +31,7 @@ module.exports = {
 
 ### options
 
-If you need to pass options to html-minifier use the plugins options, see [html-minifier](https://github.com/kangax/html-minifier#options-quick-reference) docs for all available options.
+If you need to pass options to html-minifier-terser use the plugins options, see [html-minifier-terser](https://github.com/terser/html-minifier-terser#options-quick-reference) docs for all available options.
 
 ```javascript
 // in gatsby-config.js
@@ -87,9 +87,9 @@ const defaultOptions = {
 [license-img]: https://img.shields.io/github/license/zce/gatsby-plugin-minify
 [license-url]: https://github.com/zce/gatsby-plugin-minify/blob/master/LICENSE
 [downloads-img]: https://img.shields.io/npm/dm/gatsby-plugin-minify
-[downloads-url]: https://npmjs.org/package/gatsby-plugin-minify
+[downloads-url]: https://npm.im/gatsby-plugin-minify
 [version-img]: https://img.shields.io/npm/v/gatsby-plugin-minify
-[version-url]: https://npmjs.org/package/gatsby-plugin-minify
+[version-url]: https://npm.im/gatsby-plugin-minify
 [dependency-img]: https://img.shields.io/david/zce/gatsby-plugin-minify
 [dependency-url]: https://david-dm.org/zce/gatsby-plugin-minify
 [devdependency-img]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify
