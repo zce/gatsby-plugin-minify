@@ -26,7 +26,7 @@ const defaultOptions = {
 /** @type {import('gatsby').GatsbyNode['onPostBuild']} */
 exports.onPostBuild = async ({ reporter }, pluginOptions) => {
   const options = Object.assign(defaultOptions, pluginOptions)
-  const matches = await glob('public/**/*.html', { onlyFiles: true })
+  const matches = await glob('public/**/*.(html|htm)', { onlyFiles: true })
 
   let preTotal = 0
   let resTotal = 0
