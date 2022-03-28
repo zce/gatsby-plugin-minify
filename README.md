@@ -5,7 +5,6 @@
 [![NPM Downloads][downloads-img]][downloads-url]
 [![NPM Version][version-img]][version-url]
 [![Dependency Status][dependency-img]][dependency-url]
-[![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
 > A Gatsby plugin to easily minify all output HTML files.
@@ -82,17 +81,13 @@ const defaultOptions = {
 
 [travis-img]: https://img.shields.io/travis/com/zce/gatsby-plugin-minify
 [travis-url]: https://travis-ci.com/zce/gatsby-plugin-minify
-[codecov-img]: https://img.shields.io/codecov/c/github/zce/gatsby-plugin-minify
-[codecov-url]: https://codecov.io/gh/zce/gatsby-plugin-minify
 [license-img]: https://img.shields.io/github/license/zce/gatsby-plugin-minify
 [license-url]: https://github.com/zce/gatsby-plugin-minify/blob/master/LICENSE
 [downloads-img]: https://img.shields.io/npm/dm/gatsby-plugin-minify
 [downloads-url]: https://npm.im/gatsby-plugin-minify
 [version-img]: https://img.shields.io/npm/v/gatsby-plugin-minify
 [version-url]: https://npm.im/gatsby-plugin-minify
-[dependency-img]: https://img.shields.io/david/zce/gatsby-plugin-minify
-[dependency-url]: https://david-dm.org/zce/gatsby-plugin-minify
-[devdependency-img]: https://img.shields.io/david/dev/zce/gatsby-plugin-minify
-[devdependency-url]: https://david-dm.org/zce/gatsby-plugin-minify?type=dev
+[dependency-img]: https://img.shields.io/librariesio/github/zce/gatsby-plugin-minify
+[dependency-url]: https://github.com/zce/gatsby-plugin-minify
 [style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
 [style-url]: https://standardjs.com

@@ -35,7 +35,7 @@ exports.onPostBuild = async ({ reporter }, pluginOptions) => {
     matches.map(async item => {
       const contents = await fs.promises.readFile(item, 'utf8')
       preTotal += contents.length
-      const results = minifier.minify(contents, options)
+      const results = await minifier.minify(contents, options)
       resTotal += results.length
       await fs.promises.writeFile(item, results)
     })
