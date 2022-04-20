@@ -24,7 +24,7 @@
     "html-minifier-terser": "^7.0.0-alpha.2"
   },
   "devDependencies": {
-    "standard": "16.0.4"
+    "standard": "17.0.0"
   },
   "engines": {
     "node": ">=10"
